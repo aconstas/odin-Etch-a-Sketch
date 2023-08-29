@@ -1,23 +1,23 @@
-#container {
-    width: 960px;
-    height: 960px;
-    /* background-color: red; */
-    margin: 150px auto auto auto;
-    display: flex;
-    /* flex-direction: column; */
-}
-
-.topBox {
-    background-color: blue;
-    border: 1px solid black;
-    width: calc(1/16 * 100%);
-    height: calc(1/16 * 100%);
-}
-
-.column-boxes {
+#prompt-button {
     display: block;
-    background-color: red;
-    border: 1px solid black;
-    width: calc(1/16 * 100%);
-    height: calc(1/16 * 100%);
+    margin: 50px auto 100px auto;
+}
+
+#container {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: blue;
+    height: calc(1/10 * 100%); */
+    padding: none;
+    margin: none;
+}
+
+.hovered {
+    background-color: yellow;
 }
