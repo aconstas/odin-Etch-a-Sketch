@@ -1,0 +1,23 @@
+#container {
+    width: 960px;
+    height: 960px;
+    /* background-color: red; */
+    margin: 150px auto auto auto;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.topBox {
+    background-color: blue;
+    border: 1px solid black;
+    width: calc(1/16 * 100%);
+    height: calc(1/16 * 100%);
+}
+
+.column-boxes {
+    display: block;
+    background-color: red;
+    border: 1px solid black;
+    width: calc(1/16 * 100%);
+    height: calc(1/16 * 100%);
+}
